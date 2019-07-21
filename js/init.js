@@ -5,13 +5,13 @@
       $('select').formSelect();
       $('.datepicker').datepicker();
 
-      $('input.autocomplete').autocomplete({
-          data: {
-              "Apple": null,
-              "Microsoft": null,
-              "Google": 'https://placehold.it/250x250'
-          },
-      });
+      //   $('input.autocomplete').autocomplete({
+      //       data: {
+      //           "Apple": null,
+      //           "Microsoft": null,
+      //           "Google": 'https://placehold.it/250x250'
+      //       },
+      //   });
 
       $("#destinationForm").submit(function(event) {
           event.preventDefault();
@@ -19,6 +19,7 @@
       });
 
       $(".serviceList").click(function(event) {
+          event.preventDefault();
           window.location.href = window.location.href.substring(0, window.location.href.lastIndexOf('/') + 1) + 'result.html'
       });
   });
