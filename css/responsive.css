@@ -1,0 +1,52 @@
+@media screen and (max-width: 600px) {
+  .brand-logo {
+    width: 90px;
+	}
+	.serviceListBox .customDiv {
+    width: 49% !important;margin-bottom: 24px;
+	}
+	.serviceList{
+		width: 100%;
+	}
+	.portSection h4 {
+    font-size: 22px;
+}
+.bannerBox h1 {
+    font-size: 32px;
+}
+.bannerBox h5 {
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.bannerForm input[type=text]:not(.browser-default), .bannerForm input[type=password]:not(.browser-default):focus:not([readonly]) {
+    width: calc(100% - 12px);
+}
+.parallax-container {
+    height: 400px;
+}
+.bannerBox {
+    padding: 0 0;
+}
+.serviceCount h2 {
+    font-size: 32px;    margin-top: 12px;
+}
+.countNum h6 {
+    font-size: 32px;
+}
+.countNum span {
+    font-size: 20px;
+}
+.serviceCount .row .col.s12{
+	padding: 20px 0 0 0;
+}
+.moreServe h4 {
+    font-size: 32px;
+}
+.white-text {
+    font-size: 20px;
+}
+.serviceCount img {
+    width: 100%;
+}
+}
