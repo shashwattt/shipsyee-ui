@@ -14,6 +14,7 @@
       });
 
       $("#destinationForm").submit(function(event) {
+          event.preventDefault();
           window.location.href = window.location.href.substring(0, window.location.href.lastIndexOf('/') + 1) + 'pages/export-service.html'
       });
 
